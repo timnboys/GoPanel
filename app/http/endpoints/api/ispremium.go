@@ -7,7 +7,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func IsPremium(c *gin.Context) {
+func IsPremiumHandler(c *gin.Context) {
 	if c.Query("key") != config.Conf.bot.premium-lookup-proxy-key {
 		c.JSON(403, gin.H{
 			"error": "Invalid secret key",

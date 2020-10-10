@@ -1,4 +1,4 @@
-module github.com/TicketsBot/GoPanel
+module github.com/timnboys/GoPanel
 
 go 1.14
 

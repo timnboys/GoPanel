@@ -35,7 +35,7 @@ func IsPremium(c *gin.Context) {
 	}
 
 	c.JSON(200, gin.H{
-		"premium": false,
-    "tier": 2,
+		"premium": true,
+ 		"tier": 2,
 	})
 }
